@@ -1,0 +1,10 @@
+* text=auto eol=lf
+
+*.png  binary
+*.jpg  binary
+*.webp binary
+*.apk  binary
+*.jks  binary
+*.pyc  binary
+*.xlsx binary
+*.ics  binary

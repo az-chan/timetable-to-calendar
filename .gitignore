@@ -1,0 +1,33 @@
+# ---- 本地工具链（约 1.1 GB，可用 tools/fetch_toolchain.py 重建）----
+.toolchain/
+
+# ---- 构建中间产物（保留构建脚本本身）----
+build/*
+!build/build_apk.py
+*.idsig
+*.log
+
+# ---- 发布产物：用 GitHub Releases 分发，不进仓库 ----
+dist/
+
+# ---- 签名材料：私钥绝不入库 ----
+*.jks
+*.keystore
+keystore.properties
+
+# ---- 含个人信息的课表 ----
+*.ics
+课程表*.xlsx
+*.univer
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+
+# ---- 编辑器 / 系统 ----
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+desktop.ini

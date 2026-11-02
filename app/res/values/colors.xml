@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- light theme palette (dark variants live in values-night/colors.xml) -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#616161</color>
+    <color name="text_body">#333333</color>
+    <color name="text_hint">#8A8A8A</color>
+    <color name="status_ok">#1B5E20</color>
+    <color name="status_error">#B00020</color>
+    <color name="warn">#B26A00</color>
+    <color name="window_bg">#FFFFFF</color>
+    <color name="card_bg">#F3F3F3</color>
+</resources>
